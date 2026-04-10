@@ -79,7 +79,7 @@ export default function Contact() {
               <h3 className="font-playfair font-semibold text-white text-lg mb-3">Reach Us Instantly</h3>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
-                  href="https://wa.me/919999999999"
+                  href="https://wa.me/918019566636"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 bg-[#25d366] hover:bg-[#20bf5a] text-white font-poppins font-semibold text-sm px-5 py-3 rounded-xl transition-colors"
@@ -91,7 +91,7 @@ export default function Contact() {
                   WhatsApp Us
                 </a>
                 <a
-                  href="tel:+919999999999"
+                  href="tel:+918019566636"
                   className="flex items-center justify-center gap-2 bg-[#c9a840] hover:bg-[#e8c85a] text-black font-poppins font-semibold text-sm px-5 py-3 rounded-xl transition-colors"
                 >
                   <Phone size={15} />

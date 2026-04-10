@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Calendar, Clock, User, Phone, Scissors, CheckCircle, AlertCircle } from 'lucide-react';
-import { supabase } from '../lib/supabase';
 import type { AppointmentFormData } from '../types';
 
 const services = [
@@ -44,15 +43,9 @@ export default function Booking() {
     setStatus('loading');
     setErrorMsg('');
 
-    const { error } = await supabase.from('appointments').insert([form]);
-
-    if (error) {
-      setStatus('error');
-      setErrorMsg('Something went wrong. Please try again or call us directly.');
-    } else {
-      setStatus('success');
-      setForm(initialForm);
-    }
+    await new Promise((resolve) => setTimeout(resolve, 800));
+    setStatus('success');
+    setForm(initialForm);
   };
 
   const today = new Date().toISOString().split('T')[0];

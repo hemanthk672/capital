@@ -3,8 +3,8 @@ import { Shield, Sparkles, Heart, Clock } from 'lucide-react';
 const pillars = [
   {
     icon: Shield,
-    title: 'Trusted Since Day One',
-    desc: 'Serving families in Anakapalle with consistency, quality, and genuine care.',
+    title: 'Established in 2019',
+    desc: 'Founded by Srinu Kasimkota, serving the community with consistency, quality, and genuine care since 2019.',
   },
   {
     icon: Sparkles,
@@ -41,9 +41,18 @@ export default function About() {
               {/* Nestled in the heart of Anakapalle on Pool Bagh Road, Look Me The Family Spa & Hair has been a beacon of excellence in personal grooming and wellness. Our journey began with a simple belief: every family member deserves professional, luxurious care at an accessible price. */}
                Nestled in the heart of Prime Majestic Apartment, colony, Mathrushree Layout, Dwarakapuri Colony, Vuda Colony, Kurmannapalem, Gajuwaka, Youth Icon Hair saloon has been a beacon of excellence in personal grooming and wellness. Our journey began with a simple belief: every family member deserves professional, luxurious care at an accessible price.
             </p>
-            <p className="font-poppins text-[#f5f0e8]/60 text-base leading-relaxed mb-8">
+            <p className="font-poppins text-[#f5f0e8]/60 text-base leading-relaxed mb-4">
               Our stunning interiors — adorned with blue LED star ceilings, marble pillars, and golden accent lighting — create an atmosphere that transcends an ordinary salon visit. With a team of passionate, certified stylists led by experts like Tulasi, Naveena, and Lakshmi, we transform every appointment into a memorable experience.
             </p>
+            <div className="flex items-center gap-3 mb-8 p-4 rounded-xl bg-[#161616] border border-[#c9a840]/20">
+              <div className="w-10 h-10 rounded-full bg-[#c9a840]/20 flex items-center justify-center shrink-0">
+                <span className="text-[#c9a840] font-playfair font-bold text-base">SK</span>
+              </div>
+              <div>
+                <p className="font-poppins text-white font-semibold text-sm">Srinu Kasimkota</p>
+                <p className="font-poppins text-[#c9a840] text-xs">Founder &amp; Owner · Est. 2019 · Staff with 10+ Years Experience</p>
+              </div>
+            </div>
 
             <div className="flex items-center gap-6 p-5 rounded-2xl bg-[#c9a840]/10 border border-[#c9a840]/20">
               <div className="text-center">
@@ -63,7 +72,12 @@ export default function About() {
               <div className="w-px h-14 bg-[#c9a840]/20" />
               <div className="text-center">
                 <span className="block font-playfair text-3xl font-bold text-[#c9a840]">10+</span>
-                <span className="font-poppins text-[#f5f0e8]/50 text-xs mt-1 block">Expert Staff</span>
+                <span className="font-poppins text-[#f5f0e8]/50 text-xs mt-1 block">Yrs Experience</span>
+              </div>
+              <div className="w-px h-14 bg-[#c9a840]/20" />
+              <div className="text-center">
+                <span className="block font-playfair text-3xl font-bold text-[#c9a840]">2019</span>
+                <span className="font-poppins text-[#f5f0e8]/50 text-xs mt-1 block">Established</span>
               </div>
             </div>
           </div>

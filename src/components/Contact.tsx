@@ -11,9 +11,9 @@ const contactDetails = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '+91 99999 99999',
+    value: '+91 80195 66636',
     sub: 'Available during working hours',
-    link: 'tel:+919999999999',
+    link: 'tel:+918019566636',
   },
   {
     icon: Mail,

@@ -232,7 +232,7 @@ export default function Booking() {
                 </button>
 
                 <p className="font-poppins text-[#f5f0e8]/30 text-xs text-center">
-                  Prefer to call? Reach us at <a href="tel:+919999999999" className="text-[#c9a840] hover:underline">+91 99999 99999</a>
+                  Prefer to call? Reach us at <a href="tel:+918019566636" className="text-[#c9a840] hover:underline">+91 80195 66636</a>
                 </p>
               </form>
             )}

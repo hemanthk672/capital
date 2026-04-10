@@ -231,8 +231,11 @@ export default function Booking() {
                   {status === 'loading' ? 'Booking...' : 'Book Appointment Now'}
                 </button>
 
-                <p className="font-poppins text-[#f5f0e8]/30 text-xs text-center">
+                {/* <p className="font-poppins text-[#f5f0e8]/30 text-xs text-center">
                   Prefer to call? Reach us at <a href="tel:+918019566636" className="text-[#c9a840] hover:underline">+91 80195 66636</a>
+                </p> */}
+                <p className="font-poppins text-[#f5f0e8]/30 text-xs text-center">
+                  Prefer to call? Reach us at <a href="tel:+918185891864" className="text-[#c9a840] hover:underline">+91 81858 91864</a>
                 </p>
               </form>
             )}

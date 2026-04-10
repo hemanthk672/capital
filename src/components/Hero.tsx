@@ -29,7 +29,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-20">
         <div className="mb-6 inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[#c9a840]/40 bg-[#c9a840]/10 backdrop-blur-sm">
           <Star size={14} className="text-[#c9a840] fill-[#c9a840]" />
-          <span className="text-[#c9a840] font-poppins text-xs font-medium tracking-widest uppercase">Anakapalle's Finest Salon</span>
+          <span className="text-[#c9a840] font-poppins text-xs font-medium tracking-widest uppercase">Kurmannapalem's Finest Salon</span> {/* Anakapalle's Finest Family Spa & Hair */ }
           <Star size={14} className="text-[#c9a840] fill-[#c9a840]" />
         </div>
 

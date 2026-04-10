@@ -36,8 +36,8 @@ export default function Navbar() {
               <Scissors size={18} className="text-black" />
             </div>
             <div className="leading-tight">
-              <span className="block text-[#c9a840] font-playfair font-bold text-base tracking-wide">LOOK ME</span>
-              <span className="block text-[#f5f0e8]/70 font-poppins text-[10px] tracking-widest uppercase">Family Spa & Hair</span>
+              <span className="block text-[#c9a840] font-playfair font-bold text-base tracking-wide">YOUTH ICON</span> {/* Lookme */}
+              <span className="block text-[#f5f0e8]/70 font-poppins text-[10px] tracking-widest uppercase">Hair Saloon</span> {/* Family span & Hair*/}
             </div>
           </a>
 

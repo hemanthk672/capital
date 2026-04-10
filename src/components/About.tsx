@@ -38,7 +38,8 @@ export default function About() {
               <span className="gold-text italic">Fine Beauty</span>
             </h2>
             <p className="font-poppins text-[#f5f0e8]/60 text-base leading-relaxed mb-6">
-              Nestled in the heart of Anakapalle on Pool Bagh Road, Look Me The Family Spa & Hair has been a beacon of excellence in personal grooming and wellness. Our journey began with a simple belief: every family member deserves professional, luxurious care at an accessible price.
+              {/* Nestled in the heart of Anakapalle on Pool Bagh Road, Look Me The Family Spa & Hair has been a beacon of excellence in personal grooming and wellness. Our journey began with a simple belief: every family member deserves professional, luxurious care at an accessible price. */}
+               Nestled in the heart of Prime Majestic Apartment, colony, Mathrushree Layout, Dwarakapuri Colony, Vuda Colony, Kurmannapalem, Gajuwaka, Youth Icon Hair saloon has been a beacon of excellence in personal grooming and wellness. Our journey began with a simple belief: every family member deserves professional, luxurious care at an accessible price.
             </p>
             <p className="font-poppins text-[#f5f0e8]/60 text-base leading-relaxed mb-8">
               Our stunning interiors — adorned with blue LED star ceilings, marble pillars, and golden accent lighting — create an atmosphere that transcends an ordinary salon visit. With a team of passionate, certified stylists led by experts like Tulasi, Naveena, and Lakshmi, we transform every appointment into a memorable experience.

@@ -25,7 +25,7 @@ export default function FloatingButtons() {
       )}
 
       <a
-        href="tel:+918019566636"
+        href="tel:+918185891864"
         className="flex items-center gap-2 bg-[#c9a840] hover:bg-[#e8c85a] text-black font-poppins font-semibold text-xs px-4 py-3 rounded-full shadow-xl hover:shadow-[#c9a840]/40 transition-all duration-200 group"
         aria-label="Call Now"
       >
@@ -34,7 +34,7 @@ export default function FloatingButtons() {
       </a>
 
       <a
-        href="https://wa.me/918019566636?text=Hello!%20I%20would%20like%20to%20book%20an%20appointment%20at%20Look%20Me%20Family%20Spa%20%26%20Hair."
+        href="https://wa.me/918185891864?text=Hello!%20I%20would%20like%20to%20book%20an%20appointment%20at%20Youth%20Icon%20Hair%20Salon."
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center gap-2 bg-[#25d366] hover:bg-[#20bf5a] text-white font-poppins font-semibold text-xs px-4 py-3 rounded-full shadow-xl hover:shadow-[#25d366]/40 transition-all duration-200"

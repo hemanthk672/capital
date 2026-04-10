@@ -1,26 +1,31 @@
-import { MapPin, Phone, Clock, Mail, ExternalLink } from 'lucide-react';
+import { MapPin, Phone, Clock, Mail, ExternalLink, Vault } from 'lucide-react';
 
 const contactDetails = [
   {
     icon: MapPin,
     label: 'Address',
-    value: 'Pool Bagh Road, Near RTC Complex Rd',
-    sub: 'Anakapalle, Andhra Pradesh',
-    link: 'https://maps.google.com/?q=Look+Me+Family+Spa+Hair+Anakapalle',
+    // value: 'Pool Bagh Road, Near RTC Complex Rd',
+    // sub: 'Anakapalle, Andhra Pradesh',
+    // link: 'https://maps.google.com/?q=Look+Me+Family+Spa+Hair+Anakapalle',
+     value: 'Prime Majestic Apartment, Mathrushree Layout, Dwarakapuri Colony',
+    sub: 'Kurmannapalem, Gajuwaka, Andhra Pradesh 530049',
+    link: 'https://share.google/W51YzWsptxQEFH8hM',
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '+91 80195 66636',
+    // value: '+91 80195 66636',
+    value:'081858 91864',
     sub: 'Available during working hours',
-    link: 'tel:+918019566636',
+    link: 'tel:+918185891864',
   },
   {
     icon: Mail,
     label: 'Email',
-    value: 'lookme@example.com',
+    // value: 'lookme@example.com',
+    value:'youthicon@gmail.com',
     sub: 'We reply within 24 hours',
-    link: 'mailto:lookme@example.com',
+    link: 'mailto:youthicon@gmail.com',
   },
   {
     icon: Clock,
@@ -79,7 +84,7 @@ export default function Contact() {
               <h3 className="font-playfair font-semibold text-white text-lg mb-3">Reach Us Instantly</h3>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
-                  href="https://wa.me/918019566636"
+                  href="https://wa.me/918185891864"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 bg-[#25d366] hover:bg-[#20bf5a] text-white font-poppins font-semibold text-sm px-5 py-3 rounded-xl transition-colors"
@@ -91,7 +96,7 @@ export default function Contact() {
                   WhatsApp Us
                 </a>
                 <a
-                  href="tel:+918019566636"
+                  href="tel:+918185891864"
                   className="flex items-center justify-center gap-2 bg-[#c9a840] hover:bg-[#e8c85a] text-black font-poppins font-semibold text-sm px-5 py-3 rounded-xl transition-colors"
                 >
                   <Phone size={15} />

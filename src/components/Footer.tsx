@@ -30,12 +30,12 @@ export default function Footer() {
                 <Scissors size={16} className="text-black" />
               </div>
               <div>
-                <span className="block font-playfair font-bold text-[#c9a840] text-base">LOOK ME</span>
-                <span className="block font-poppins text-[#f5f0e8]/40 text-[10px] tracking-widest uppercase">Family Spa & Hair</span>
+                <span className="block font-playfair font-bold text-[#c9a840] text-base">YOUTH ICON</span>
+                <span className="block font-poppins text-[#f5f0e8]/40 text-[10px] tracking-widest uppercase">Hair Salon</span>
               </div>
             </div>
             <p className="font-poppins text-[#f5f0e8]/40 text-sm leading-relaxed mb-5">
-              Anakapalle's premier family salon — where luxury meets expertise and every visit is a transformation.
+              Kurmannapalem's premier family salon — where luxury meets expertise and every visit is a transformation.
             </p>
             <div className="flex gap-3">
               {[
@@ -92,12 +92,12 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-start gap-3">
                 <MapPin size={15} className="text-[#c9a840] mt-0.5 flex-shrink-0" />
-                <span className="font-poppins text-[#f5f0e8]/40 text-sm">Pool Bagh Road, Near RTC Complex Rd, Anakapalle, A.P.</span>
+                <span className="font-poppins text-[#f5f0e8]/40 text-sm">Prime Majestic Apartment, colony, Mathrushree Layout, Dwarakapuri Colony, Vuda Colony, Kurmannapalem, Gajuwaka, A.P</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={15} className="text-[#c9a840] flex-shrink-0" />
-                <a href="tel:+918019566636" className="font-poppins text-[#f5f0e8]/40 hover:text-[#c9a840] text-sm transition-colors">
-                  +91 80195 66636
+                <a href="tel:+918185891864" className="font-poppins text-[#f5f0e8]/40 hover:text-[#c9a840] text-sm transition-colors">
+                  +91 81858 91864
                 </a>
               </div>
               <div className="flex items-start gap-3">
@@ -113,10 +113,10 @@ export default function Footer() {
 
         <div className="py-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="font-poppins text-[#f5f0e8]/25 text-xs">
-            © {new Date().getFullYear()} Look Me The Family Spa & Hair. All rights reserved.
+            © {new Date().getFullYear()} Youth Icon Hair Salon. All rights reserved.
           </p>
           <p className="font-poppins text-[#f5f0e8]/25 text-xs">
-            Anakapalle, Andhra Pradesh, India
+            Kurmannapalem, Andhra Pradesh, India
           </p>
         </div>
       </div>
